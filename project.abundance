@@ -45,13 +45,13 @@
           "uniqueID": "id-6191",
           "ioValues": [
             {
+              "name": "railHeight",
+              "ioValue": 700
+            },
+            {
               "name": "color",
               "ioValue": "#F4F1EA",
               "currentEquation": "#F4F1EA"
-            },
-            {
-              "name": "railHeight",
-              "ioValue": 700
             }
           ],
           "interpreterVersion": 1,
@@ -1907,6 +1907,11 @@
   ],
   "allConnectors": [
     {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-6889",
+      "ap2ID": "id-6086"
+    },
+    {
       "ap2Name": "Shape 1",
       "ap1ID": "id-6187",
       "ap2ID": "id-6889"
@@ -1920,11 +1925,6 @@
       "ap2Name": "Shape3",
       "ap1ID": "id-6301",
       "ap2ID": "id-6889"
-    },
-    {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-6889",
-      "ap2ID": "id-6086"
     },
     {
       "ap2Name": "Shape9",
